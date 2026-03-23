@@ -2,7 +2,7 @@ async function sendMessage() {
   const name = document.getElementById("name").value;
   const message = document.getElementById("message").value;
 
-  await fetch("http://localhost:5000/message", {
+  await fetch("https://portfolio-project-nj1q.onrender.com", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
