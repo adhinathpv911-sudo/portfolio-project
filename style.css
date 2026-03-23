@@ -1,11 +1,65 @@
 body {
-  background: #111;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0d1117;
   color: white;
-  text-align: center;
-  font-family: Arial;
 }
 
-input, button {
-  margin: 10px;
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero {
+  background: linear-gradient(135deg, #ff0080, #7928ca);
+}
+
+.hero h1 {
+  font-size: 40px;
+}
+
+.about {
+  background: #161b22;
+}
+
+.projects {
+  background: #0d1117;
+}
+
+.project-card {
+  background: #161b22;
+  padding: 20px;
+  margin: 20px auto;
+  width: 250px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  background: #21262d;
+}
+
+.project-card a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+.contact input {
+  display: block;
+  margin: 10px auto;
   padding: 10px;
+  width: 250px;
+}
+
+.contact button {
+  padding: 10px 20px;
+  background: #ff0080;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background: #ff4da6;
 }

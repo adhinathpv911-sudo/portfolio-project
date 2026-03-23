@@ -7,15 +7,46 @@
 </head>
 <body>
 
-  <h1>My Portfolio</h1>
-  <p>Hello, I am Adhinath 👋</p>
-  <br><br>
-  <br>
+  <!-- HERO -->
+  <section class="hero">
+    <h1>Hi, I'm Adhinath 👋</h1>
+    <p>Web Developer | Building Full Stack Projects</p>
+  </section>
 
-  <h2>Contact Me</h2>
-  <input type="text" id="name" placeholder="Your Name">
-  <input type="text" id="message" placeholder="Your Message">
-  <button onclick="sendMessage()">Send</button>
+  <!-- ABOUT -->
+  <section class="about">
+    <h2>About Me</h2>
+    <p>I am a beginner web developer learning full stack development using HTML, Node.js, and databases.</p>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects">
+    <h2>My Projects</h2>
+
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>My personal portfolio with contact form and backend.</p>
+      <a href="#" target="_blank">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Audio Library</h3>
+      <p>A web app to manage and play songs.</p>
+      <a href="#" target="_blank">View Project</a>
+    </div>
+
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact">
+    <h2>Contact Me</h2>
+
+    <input type="text" id="name" placeholder="Your Name">
+    <input type="text" id="message" placeholder="Your Message">
+    <button onclick="sendMessage()">Send</button>
+
+    <p id="status"></p>
+  </section>
 
   <script src="script.js"></script>
 </body>
